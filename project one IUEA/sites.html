@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kuku website</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+	<meta name="viewport" content="width =device-width intial-scale = 1">
+
+	<style> @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&family=Rubik+Vinyl&display=swap'); 
+	</style>
+
+</head>
+
+<body>
+
+		<div id="sideNav">
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="kuku.html">Kuku</a></li>
+					<li><a href="way.html">Way of life</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="sites.html">Sites</a></li>	
+				</ul>
+			</nav>
+			<hr>
+			<div class="title-text">
+			<p style="color:red">modong racheal</p>
+		
+		</div>
+			
+		</div>
+
+			<div id="menubtn">
+				<img src="images/img.png" width="50px" id="menu">
+			
+
+		</div>
+
+		<section id="about">
+				<div class="title-text">
+			<p>ECONOMIC SITES</p>
+		<h1>Sites in kajo keji</h1>
+		</div>
+
+		<div class="about-box">
+			<div class="single-about">
+				<img src="images/pic11.jpg" height="400px">
+				<div class="overlay-code"></div>
+			</div>
+
+			<div class="single-about">
+				<img src="images/pic4.jpg" height="400px">
+					<div class="overlay-code"></div>>
+			</div>
+
+			<div class="single-about">
+				<img src="images/pic10.jpg" height="400px">
+					<div class="overlay-code"></div>
+			</div>
+			<div class="single-about">
+				<img src="images/pic6.jpg" height="400px">
+					<div class="overlay-code"></div>
+			</div>
+		</div>
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+		<!-----footer----->
+ <section class="footer">
+ 	<div class="title-text">
+			<p>ABOUT US</p>
+		</div>
+ 	<P>MODONG RACHEAL <br>
+ 		COMPUTER SCIENCE <br>
+ 		rachealmodong65@gmail.com
+ 	</P>
+ 	<div class="icons">
+ 		<i class="fa fa-facebook"></i>
+ 		<i class="fa fa-whatsapp"></i>
+ 		<i class="fa fa-twitter"></i>
+ 		<i class="fa fa-envelope"></i>
+ 	</div>
+ 	
+ 	<p>&copy;2022 Reserved by MODONG RACHEAL </p>
+ </section>
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var menubtn = document.getElementById("menubtn")
+	var sideNav = document.getElementById("sideNav")
+	var menu = document.getElementById("menu")
+
+	sideNav.style.right = "-250px";
+
+	menubtn.onclick = function(){
+		if (sideNav.style.right == "-250px"){
+			sideNav.style.right = "0";
+			menu.src = "images/close.png";
+		} 
+		else{
+			sideNav.style.right = "-250px";
+			menu.src = "images/img.png";
+		}
+	}
+</script>
+</body>
+</html>
